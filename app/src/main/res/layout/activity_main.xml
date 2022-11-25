@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="15dp"
+        app:strokeWidth="2dp"
+        android:id="@+id/b_lectures"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:onClick="openLectures"
+        android:text="@string/button_lectures"
+        android:fontFamily="@font/roboto_black"
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b_test"
+        app:cornerRadius="15dp"
+        android:layout_width="260dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="10dp"
+        app:strokeWidth="2dp"
+        android:onClick="openTest"
+        android:text="@string/button_test"
+        android:fontFamily="@font/roboto_black"
+        app:layout_constraintStart_toStartOf="@+id/b_lectures"
+        app:layout_constraintTop_toBottomOf="@+id/b_lectures" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="260dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="10dp"
+        android:onClick="openPC"
+        android:text="@string/button_pc"
+        android:fontFamily="@font/roboto_black"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="@+id/b_test"
+        app:layout_constraintTop_toBottomOf="@+id/b_test"
+        app:strokeWidth="2dp" />
+
+    <ImageButton
+        android:id="@+id/info_button"
+        android:onClick="openAboutApp"
+        android:layout_width="57dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/iconformain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_test" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="375dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background_main" />
+</androidx.constraintlayout.widget.ConstraintLayout>

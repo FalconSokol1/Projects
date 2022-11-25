@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MathSimulator</string>
+    <string name="button_test">Тренажёр</string>
+    <string name="button_lectures">Уроки</string>
+    <string name="button_pc">Компьютерная версия</string>
+    <string name="back">Назад</string>
+    <string name="accept">Принято</string>
+    <string name="next">Далее</string>
+    <string name="about_app_h1">О приложении:</string>
+    <string name="about_app_h2">Программу разработал для диф.зачёта по УП.01 \n"Разработка математического тренажёра для детей
+младшего школьного возраста."
+
+        \nСтудент отделения информационных технологий ИС-32         \nСоколов Руслан Сергеевич</string>
+    <string name="learning_theme1">Основы счёта</string>
+    <string name="learning_theme2">Таблица умножения</string>
+    <string name="learning_theme3">Уровнения</string>
+    <string name="learning_theme4">...</string>
+    <string name="result_score">А ты молодец! Продолжай тренироваться в других темах!</string>
+    <string name="result_scoreY">Результат: сойдёт...</string>
+    <string name="result_scoreF">Стоит уделить внимание этой теме, результат плохой.</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+
+</resources>

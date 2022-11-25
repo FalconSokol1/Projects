@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp">
+
+        <ImageView
+            android:id="@+id/imageV"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameL_tx"
+            android:layout_width="252dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="NameLectures"
+            android:textSize="20dp"
+            android:fontFamily="@font/roboto_black"
+            app:layout_constraintStart_toEndOf="@+id/imageV"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/aboutL_tx"
+            android:layout_width="220dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_black"
+            android:text="AboutLectures"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@+id/nameL_tx"
+            app:layout_constraintTop_toBottomOf="@+id/nameL_tx" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
