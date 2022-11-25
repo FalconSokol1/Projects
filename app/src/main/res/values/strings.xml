@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ISSNature</string>
+    <string name="text_main">Информационная система.</string>
+    <string name="about_app_h1">О приложении:</string>
+    <string name="about_app_h2">Программу разработал для диф.зачёта по УП.01 \n"Разработка ИСС «Окружающий мир» для учащихся
+младших классов."
+
+        \nСтудент отделения информационных технологий ИС-32         \Широков Артём Сергеевич</string>
+
+
+</resources>
